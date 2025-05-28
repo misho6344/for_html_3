@@ -1,0 +1,555 @@
+
+
+/* index.html */
+
+.flexbox-container {
+  display: flex;
+
+  /* sicarielis ertmanetsh shoris chasagdebad */
+  /* justify-content:space-between; */
+
+  /*centrshi gasasworeblad itemebis */
+  /* align-items: center; */
+
+  /* itmemebis vertikalurad dasalageblad */
+  /* flex-direction: column; */
+
+  background-color: #333;
+
+
+}
+.flexbox-item {
+  width: 80px;
+  margin: 10px;
+
+  max-height: 40px;
+  text-align: center;
+
+  font-family: 'Fuzzy Bubbles';
+  
+
+}
+
+.flexbox-item-0{
+
+  margin-right: 50px;
+
+
+  
+}
+.flexbox-item-0 img{
+  height: 40px;
+  align-self: center;
+  
+  
+  
+}
+
+.flexbox-item-1{
+  /* ar sheikveceba zomashi rac ar unda moxdes */
+  /* flex-shrink: 0; */
+
+  /* item ganlagdeba tavshi */
+  /* align-self:flex-start; */
+
+  /* itmebis tanmimdevrobis shecvla htmls gareshe */
+  /* order: 3; */
+}
+
+
+.flexbox-item-2{
+
+
+  /*gaxdeba imxela simaglis ramdenic uweria tviton */
+  /* align-self: center; */
+
+  /* order: 1; */
+}
+
+.flexbox-item-3{
+
+
+  /* itemi daikavebs mtlian darchenil adgils ramdenic ar unda iyos is */
+  /* flex-grow: 1; */
+
+  /*itemi chamova tavisi rigis boloshi */
+  /* align-self: flex-end; */
+
+  /* order: 2; */
+
+}
+.flexbox-item-6{
+  margin-left: auto;
+  
+}
+.flexbox-item-6 img{
+  align-self: center;
+
+  height: 20px;
+}
+.flexbox-item-7 img{
+  align-self: center;
+  
+  height: 23px;
+}
+.flexbox-item-1 a{
+  color: rgb(25, 204, 22);
+  text-decoration: 0;
+  font-size: 20px;
+}
+.flexbox-item-2 a{
+  color: rgb(25, 204, 22);
+  text-decoration: 0;
+  font-size: 20px;
+}
+.flexbox-item-3 a{
+  color: rgb(25, 204, 22);
+  text-decoration: 0;
+  font-size: 20px;
+}
+.flexbox-item-4 a{
+  color: rgb(25, 204, 22);
+  text-decoration: 0;
+  font-size: 20px;
+}
+.flexbox-item-5{
+  color: rgb(25, 204, 22);
+
+
+  border: none;
+  cursor: pointer;
+}
+
+.flexbox-item-5 a{
+  color: rgb(25, 204, 22);
+  text-decoration: 0;
+  font-size: 20px;
+}
+.flexbox-button{
+  border: 0px;
+  background: 0px;
+  color: rgb(25, 204, 22);
+  text-decoration: 0;
+  font-size: 20px;
+}
+.dropdown-img{
+  height: 20px;
+  align-self: center;
+}
+
+
+
+
+.background{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  height: 100%;
+  width: 100%;
+  background-image: url("/images/background-img1.jpg");
+
+
+
+
+}
+
+
+.background img{
+  width: 100%;
+}
+.background .para{
+  position:absolute;
+  margin-top: 2%;
+  color: rgb(25, 204, 22);
+  font-size: 5vw;
+  /* font-size: 80px; */
+  right: 10%;
+  font-family: 'Fuzzy Bubbles';
+
+}
+
+.carousel{
+
+  width: 20.83vw;
+  margin: 60px;
+  margin-left: 100px;
+
+  border: 5px;
+  border-color: rgb(25, 204, 22);
+  border-style:solid;
+  border-radius: 8px;
+
+
+}
+
+
+
+.span{
+  color: rgb(25, 204, 22);
+
+  
+}
+
+.search-container{
+  width: 35%;
+  height: 300px;
+
+  margin-left: auto ;
+  margin-right: 16vw;
+  margin-top: -20%;
+
+
+}
+.search-container button{
+  width: 5vw;
+  height: 2.3vw;
+  position: absolute;
+  margin: 2vmin 0.41vw;
+  margin-left: auto;
+  top :0; left: 0; right: 0; bottom: 0;
+  border-radius: 6px;
+
+
+  background-color: rgb(25, 204, 22);
+  color: white;
+  font-family: 'Fuzzy Bubbles';
+  font-size: 0.9vw;
+  
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+
+  color: rgb(25, 204, 22);
+  font-size: 20px;
+  background-color: transparent;
+
+
+  border: none;
+  
+  cursor: pointer;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#input {
+  width: 100%;
+  height: 58px;
+
+  position: relative;
+  margin: 30% 0 0 0;
+  margin-left: auto;
+  margin-right: 9%;
+  font-family: 'Fuzzy Bubbles';
+  font-size: 1.04vw;
+
+
+}
+input{
+  /* box-shadow: 0 0 25px rgb(25, 204, 22); */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.884);
+  border-radius: 6px;
+
+
+}
+
+
+#input a{
+/* 
+  width: 12%;
+  height: 50%;
+  position: absolute;
+  margin: 18px 8px;
+  margin-left: auto;
+  top :0; left: 0; right: 0; bottom: 0;
+  background-color: transparent; */
+  color: red;
+  
+
+}
+/* .topnav button{
+  border-radius: 6px;
+
+
+  background-color: rgb(25, 204, 22);
+  color: white;
+  font-family: 'Fuzzy Bubbles';
+} */
+   
+.topnav{
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* sign_in.html ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(25, 204, 22);
+  box-sizing: border-box;
+
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(25, 204, 22);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+
+  text-align: center;
+  margin: 0 12px 0;
+  position: relative;
+  width: 80% ;
+  padding-top: 30px  ;
+  padding-left: 17%;
+
+
+
+}
+.avatar{
+  width: 20%;
+}
+.formclass{
+  background-image:  url("/images/extras/background-img2.jpg") ;
+
+
+}
+
+/* .background_img{
+  background-image: url("/images/ricky\ and\ morty.jpg");
+  background-repeat: no-repeat;
+
+} */
+/* .background_img img{
+
+  width: 100%;
+
+} */
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  font-family: 'Fuzzy Bubbles';
+  color: rgb(25, 204, 22);
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(25, 204, 22); /* Fallback color */
+  background-color: rgb(25, 204, 22); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+.registerbtn{
+  /* background-color: rgb(25, 204, 22);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  position: absolute;
+  margin-top: 10px;
+  top: 90%; 
+  right: 20%; */
+
+  
+  margin-left: 2%;
+
+  
+
+}
+
+
+.button_container{
+  display: flex;
+  background-color: none;
+  width: 100%;
+
+
+
+  /* width: 30%; */
+}
+.button_1{
+  width: 20%;
+
+
+
+}
+
+
+
+/* font-family: 'Fuzzy Bubbles'; */
+
+
+
+/* registration.html ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn1 {
+  background-color: rgb(25, 204, 22);
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Fuzzy Bubbles';
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: transparent;
+  text-align: center;
+}
+.reg_form{
+  background-image: url("/images/extras/background-img2.jpg");
+  padding-top: 80px;
+}
+
+
+/* vw instead of px for any screen, responsive text  */
+
+
+
+
+/* about.html ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.bg{
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
